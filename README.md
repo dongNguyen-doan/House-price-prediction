@@ -12,10 +12,10 @@ The dataset includes the following features:
 ##  Project Workflow  
 Below is the workflow illustrating the key steps from data collection to model prediction:  
 
-![Project Workflow](image.png)  
+![Project Workflow](https://github-production-user-asset-6210df.s3.amazonaws.com/94174684/282810739-45cf125b-7b0a-40aa-8f25-c16b6445bd0f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250226%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250226T092145Z&X-Amz-Expires=300&X-Amz-Signature=d18b7c3ea97edca21edb43bfa0095768d7ad576477001e29a6a1d0d95a285904&X-Amz-SignedHeaders=host)  
 
 ### 1⃣ Data Collection  
-- **Web scraping** is used to extract real estate data from property listing websites.  
+- **Web scraping** is used to extract real estate data from this [website](https://batdongsan.vn/ban-nha/).  
 - The dataset consists of **7 key features** used for model training.  
 
 ```python
