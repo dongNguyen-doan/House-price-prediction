@@ -1,15 +1,15 @@
 # 🏡 House Price Prediction  
 
-## 📌 Introduction  
+##  Introduction  
 This project aims to **predict house prices** based on real estate characteristics using **machine learning techniques**. The dataset is collected through **web scraping** and preprocessed before training various models.  
 
-## 💊 Dataset Overview  
+##  Dataset Overview  
 The dataset includes the following features:  
 - **Property attributes**: Number of floors, bedrooms, bathrooms, area (m²), road frontage, legal status.  
 - **Geographical location**: Latitude and longitude coordinates.  
 - **Market trends**: Historical transaction data.  
 
-## 🔄 Project Workflow  
+##  Project Workflow  
 Below is the workflow illustrating the key steps from data collection to model prediction:  
 
 ![Project Workflow](image.png)  
@@ -101,5 +101,5 @@ y_pred = y_pred1*0.25 + y_pred2*0.54 + y_pred3*0.21
   - **R2 Score:** 0.711  
   - **RMSE:** 1.60  
 
-## 🎯 Conclusion  
+##  Conclusion  
 This project successfully applies **Machine Learning** techniques to **predict house prices**, improving valuation accuracy and supporting decision-making in the real estate market. 🚀  
